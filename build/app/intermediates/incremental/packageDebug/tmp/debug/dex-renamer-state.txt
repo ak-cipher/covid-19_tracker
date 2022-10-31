@@ -1,7 +1,0 @@
-#Mon Oct 31 10:19:46 IST 2022
-base.1=E\:\\AkashFlutter\\basicprogram\\cvoid-19 tracker\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
-path.1=classes.dex
-base.0=E\:\\AkashFlutter\\basicprogram\\cvoid-19 tracker\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
-path.0=classes.dex

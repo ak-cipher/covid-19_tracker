@@ -9,7 +9,7 @@ class WorldStatsModel {
   int? _active;
   int? _critical;
   int? _casesPerOneMillion;
-  double? _deathsPerOneMillion;
+  int? _deathsPerOneMillion;
   int? _tests;
   double? _testsPerOneMillion;
   int? _population;
@@ -32,7 +32,7 @@ class WorldStatsModel {
       int? active,
       int? critical,
       int? casesPerOneMillion,
-      double? deathsPerOneMillion,
+      int? deathsPerOneMillion,
       int? tests,
       double? testsPerOneMillion,
       int? population,
@@ -129,8 +129,8 @@ class WorldStatsModel {
   int? get casesPerOneMillion => _casesPerOneMillion;
   set casesPerOneMillion(int? casesPerOneMillion) =>
       _casesPerOneMillion = casesPerOneMillion;
-  double? get deathsPerOneMillion => _deathsPerOneMillion;
-  set deathsPerOneMillion(double? deathsPerOneMillion) =>
+  int? get deathsPerOneMillion => _deathsPerOneMillion;
+  set deathsPerOneMillion(int? deathsPerOneMillion) =>
       _deathsPerOneMillion = deathsPerOneMillion;
   int? get tests => _tests;
   set tests(int? tests) => _tests = tests;

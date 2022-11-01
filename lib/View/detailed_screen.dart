@@ -1,5 +1,6 @@
-import 'package:covid_tracker/Widgets/reuseable_row.dart';
 import 'package:flutter/material.dart';
+
+import '../Widgets/reuseable_row.dart';
 
 class DetailedScreen extends StatelessWidget {
   String image, name;

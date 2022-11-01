@@ -1,10 +1,10 @@
-import 'package:covid_tracker/Widgets/reuseable_row.dart';
-import 'package:covid_tracker/services/stats_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:pie_chart/pie_chart.dart';
 
+import '../Widgets/reuseable_row.dart';
 import '../models/world_stats_model.dart';
+import '../services/stats_service.dart';
 
 class WorldStats extends StatelessWidget {
   WorldStats({super.key});

@@ -1,9 +1,10 @@
 import 'dart:convert';
 
-import 'package:covid_tracker/models/world_stats_model.dart';
-import 'package:covid_tracker/services/utilities/api_url.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+
+import '../models/world_stats_model.dart';
+import 'utilities/api_url.dart';
 
 class StatsService {
   Future<WorldStatsModel> fetchWorldStatsRecords() async {

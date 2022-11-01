@@ -1,8 +1,9 @@
-import 'package:covid_tracker/Controller/country_search_bloc.dart';
-import 'package:covid_tracker/View/detailed_screen.dart';
-import 'package:covid_tracker/services/stats_service.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
+
+import '../Controller/country_search_bloc.dart';
+import '../services/stats_service.dart';
+import 'detailed_screen.dart';
 
 class CountriesListScreen extends StatelessWidget {
   CountriesListScreen({super.key});

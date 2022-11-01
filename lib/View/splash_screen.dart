@@ -1,8 +1,9 @@
 import 'dart:async';
 import 'dart:math' as math;
 import 'dart:ui';
-import 'package:covid_tracker/View/world_stats.dart';
 import 'package:flutter/material.dart';
+
+import 'world_stats.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -45,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen>
                 child: Container(
                   height: MediaQuery.of(context).size.width,
                   width: MediaQuery.of(context).size.width,
-                  child: Center(child: Image.asset('images/virus.png')),
+                  child: Center(child: Image.asset('assets/virus.png')),
                 ),
                 builder: ((context, child) {
                   return Transform.rotate(
